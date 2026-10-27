@@ -9,7 +9,7 @@ A cryptocurrency-themed dashboard interface built with React. This project focus
 
 The application is organized into separate pages for the dashboard, transactions, and support. Shared layout and navigation components help keep the interface consistent across the application.
 
-This is a frontend portfolio project. Refer to the implementation and live demo for the exact functionality available.
+This is a frontend portfolio project using sample/static values in several dashboard cards and transaction rows. It is not connected to a live exchange or wallet service, and the displayed balances and transactions should be treated as demonstration data. Some visible controls (such as CSV export or Buy/Sell) are UI elements and may not perform real financial operations.
 
 ## Pages
 
@@ -99,7 +99,8 @@ Folder names and contents may evolve as the project develops.
 
 ## Possible Next Steps
 
-- Connect the interface to a documented cryptocurrency market-data API, if not already connected.
+- Connect the interface to a documented cryptocurrency market-data API.
+- Implement and test search, filtering, CSV export, and action buttons rather than presenting them as functional if they are still placeholders.
 - Add clear loading, empty, and error states for data-driven views.
 - Improve responsive behaviour and accessibility.
 - Add tests for key components and routes.
